@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="timer-page">
+    <label id="title">Timer</label>
+    <div id="watch">
+        <input type="text" id="time-given" placeholder="Enter time ( hh:mm:ss )">
+        <div id="display">00:00:00:00</div>
+        <div id="controls">
+            <button id="start" class="buttons" onclick="start();">start</button>
+            <button id="stop" class="buttons" onclick="stop();">stop</button>
+            <button id="reset" class="buttons" onclick="reset();">reset</button>
+        </div>
+    </div>
+    <script src="control.js"></script>    
+</body>
+</html>

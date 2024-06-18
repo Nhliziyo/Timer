@@ -1,0 +1,73 @@
+#timer-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+#title{
+    color: white;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 1px 1px white;
+}
+
+#watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 2px 2px white;
+    padding: 10px 30px;
+}
+
+#time-given{
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+#display{
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 1px 1px white;
+    margin: 10px;
+}
+
+.buttons{
+    font-size: 1em;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 5px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#start{
+    background-color: hsl(207, 96%, 50%);
+}
+#start:hover{
+    background-color: hsl(207, 96%, 40%);
+}
+
+#stop{
+    background-color: hsl(0, 96%, 50%);
+}
+#stop:hover{
+    background-color: hsl(0, 96%, 40%);
+}
+
+#reset{
+    background-color: hsl(278, 96%, 50%);
+}
+#reset:hover{
+    background-color: hsl(278, 96%, 40%);
+}
